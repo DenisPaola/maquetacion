@@ -1,0 +1,77 @@
+body{
+    font-family: tahoma;
+    height: 100 vh;
+}
+
+header{
+    background-color: white;
+    text-align: left;
+    height: 50px;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    
+}
+
+nav a{
+    color:white;
+    padding:16px;
+    text-align: center;
+    text-decoration: none;
+    width: 61%;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid black;
+    
+}
+
+
+aside{
+
+    display: flex;
+    background-color:white;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;        
+    width:30%;      
+
+}
+
+section{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    text-align:center;
+    font-family: tahoma;
+    font-size: smaller;
+}
+
+.viaje{
+    text-align: center;
+    justify-content: center;
+}
+
+.parrafo{
+
+    background-color: white;
+    text-align: justify;
+    
+}

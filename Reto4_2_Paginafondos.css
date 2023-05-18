@@ -1,0 +1,62 @@
+body{
+    
+    font-family: tahoma;
+    height: 100vh;
+
+}
+
+header{
+    background-color: white;
+    height:50px;
+    text-align: left;
+    
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding:12px;
+    background-color:black;
+    text-align: center;
+    width:98%;
+    
+}
+
+nav a{
+    color:white;
+    padding:14px;
+    height:10px;
+    text-decoration: none;
+    width:61%;
+
+}
+
+.container{
+    display:flex; 
+    flex-flow: wrap; 
+    justify-content: center;
+    width: 99%;
+    height: 80%;
+    border: 2px solid rgb(185, 8, 8);
+    
+   
+}
+
+    .imagen1 img{
+        max-width:33%;
+        height: 40%;
+        
+        
+
+        
+    }
+
+    .imagen2 img{
+        width:33%;
+        height:40%;
+        
+                        
+    }
+
+    

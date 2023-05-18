@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    width: 28%;
+    height: 520px;
+    margin: 50px;
+    border: 5px double gray;
+    border-radius: 8px;
+}    
+
+.header {
+    height: 75px;
+    background-color: white;
+    padding: 17px;
+    width: 87%;
+    margin: 3px;
+    border: 5px double rgb(120, 183, 120);
+    border-radius: 8px;
+}
+
+.Nav {
+    height: 20px;
+    background-color: white;
+    padding: 17px;
+    width: 87%;
+    margin: 3px;
+    border: 5px double rgb(251, 166, 204);
+    border-radius: 8px;
+}
+
+.tercera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    width: 97%;
+    height: 278px;
+    margin: 3px;
+}
+
+.content-left {
+    width: 84%;
+    background-color: white;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border: 5px double rgba(32, 32, 188, 0.608);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.Header {
+    background-color: white;
+    height: 20px;
+    border: 5px double rgb(77, 77, 185);
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.Section {
+    background-color: white;
+    height: 20px;
+    border: 5px double rgb(168, 31, 168);
+    border-radius: 8px;
+}
+
+.content-right {
+    width: 18%;
+    background-color: white;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border: 5px double gray;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.aside {
+    height: 150px;
+    background-color: white;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    border: 5px double turquoise;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+.Footer {
+    background-color: white;
+    height: 20px;
+    border: 5px double gray;
+    border-radius: 8px;
+    width: 97%;
+}
