@@ -1,0 +1,82 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: white;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    width:100%;
+    background: black;
+}
+
+nav a{
+    color:white;
+    padding: 14px;
+    text-decoration:none;
+    width:61%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:black  ;
+    text-shadow: 00 2px blue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.Galeria{
+    margin:10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px rgba(0, 0, 0, 0.19);
+    float:left;
+    width: 350px;
+    justify-content: center;
+}
+
+div.Galeria img{
+    width: 100%;
+    height: auto;
+    
+}
+
+div.Galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.Pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}    
+
+.buttons a { 
+    text-decoration: none;
+    font-size: 28px;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: blue;
+    color:#f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+
+}    
