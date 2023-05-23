@@ -1,0 +1,75 @@
+*body{
+    margin:0;
+    font-family:'Raleway', Tahoma;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    width:100%;
+    background: black;
+}
+
+nav a{
+    color:white;
+    padding: 14px;
+    text-decoration:none;
+    width:61%;
+    font-weight: bold;
+    font-family: 'Raleway', Tahoma;
+}
+
+.section{
+    background-color: rgb(7, 7, 204);
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    width: 50%;
+    margin:15px auto;
+    border-radius:20px;
+    box-shadow:10px 10px 10px rgb(8, 1, 1);
+} 
+
+.section img{
+    width: 200px; 
+    border-radius:30px; 
+          
+}
+
+.section h1{
+    margin: 0;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;    
+}
+
+.section p{
+    color: white;
+    margin-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}    
+
+.buttons a { 
+    text-decoration: none;
+    font-size: 28px;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: black;
+    color:#f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 5);
+
+}    
+
+
