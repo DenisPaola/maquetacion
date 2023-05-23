@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="https://kit.fontawesome.com/36abb4fa45.js" crossorigin="anonymous"></script>
+    <script src="formulario.js"></script>
+</head>
+
+<!-- <nav>
+    <a href="">INICIO</a>
+    <a href="">NOSOTROS</a>
+    <a href="">LUGARES</a>
+    <a href="">CONTACTO</a>
+</nav> -->
+
+<body>
+    <form class="form_registro">
+        <h4>Formulario de Informacion </h4>
+        <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" class="campo">
+        <input class="controls" type="text" name="ciudad" id="origen" placeholder="Ingresa tu origen" class="campo">
+        <input class="controls" type="text" name="lugar" id="destino" placeholder="Ingresa tu destino" class="campo">
+        <input class="controls" type="number" name="personas" id="cantidad" placeholder="Ingresa cantidad de personas"
+            class="campo">
+        <input class="controls" type="date" name="dia" id="fecha" placeholder="Ingresa la fecha" class="campo">
+        <input type="button" class="btn-informacion" value="solicitar informacion" onclick="solicitarInformacion()">
+        <input type="button" class="btn-filtrar" value="Filtrar" onclick="filtrar()">
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Origen</th>
+                    <th>Destino</th>
+                    <th>Cantidad</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                
+            </tbody>
+
+
+        </table>
+    </div>
+
+
+    <!-- <footer class="buttons">
+        <a href="https://www.facebook.com/codenotchMAD/about" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/codenotchmad/" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/@codenotch6111" class="fa fa-youtube"></a>
+        <a href="https://twitter.com/CodenotchMAD" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Aorganization%3A28996198&keywords=codenotch&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=f2f38331-d1e3-4395-b19f-8a33fbab9c9a&sid=lQB" class="fa fa-linkedin"></a>
+    </footer>    -->
+
+
+</body>
+
+</html>
